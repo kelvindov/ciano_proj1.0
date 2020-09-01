@@ -71,7 +71,7 @@ nav li:hover {
 /* Toda a area que segura o carrosel, tem o background de textura */
 #topo_carrossel {
     display: flex;
-    background-image: url('../images/200820-CIANO-Mockup-12.jpg');
+    background-image: url('200820-CIANO-Mockup-12.jpg');
     background-size: 100% 100%;
     height: 575px;
 }
@@ -259,7 +259,7 @@ nav li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/200820-CIANO-Mockup-12.jpg');
+    background-image: url('200820-CIANO-Mockup-12.jpg');
     background-size: 100% 100%;
     height: 300px;
 }
@@ -306,7 +306,7 @@ nav li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/200820-CIANO-Mockup-12.jpg');
+    background-image: url('200820-CIANO-Mockup-12.jpg');
     background-size: 100% 100%;
     height: 50px;
 }
@@ -382,7 +382,7 @@ nav li:hover {
 
     #topo_carrossel {
         display: flex;
-        background-image: url('../images/200820-CIANO-Mockup-12.jpg');
+        background-image: url('200820-CIANO-Mockup-12.jpg');
         background-size: 100% 100%;
         height: 575px;
     }
@@ -478,7 +478,7 @@ nav li:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url('../images/200820-CIANO-Mockup-12.jpg');
+        background-image: url('200820-CIANO-Mockup-12.jpg');
         background-size: 100% 100%;
         height: 400px;
     }
