@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <title>Ciano Home page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f39c69ff21.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+</head>
+<body>
+
+    <header id="topo"> <!-- engloba a logo do website e conta de usuario & carrinho-->
+
+        <div class="logo">
+
+            <img src="assets/images/200820-CIANO-Mockup-13.png" />
+
+        </div>
+        
+        
+        <div class="conta_carrinho">
+            
+            <i class="fas fa-user-alt"></i><!-- Icones de conta e carrinho de compra-->
+
+            <i class="fas fa-shopping-basket"></i><!-- Icones de conta e carrinho de compra-->
+
+        </div>
+        
+    </header> <!-- engloba a logo do website e conta de usuario & carrinho-->
+
+    <div class="menu"> <!-- menu de navegação do website (Versão Desktop)-->
+        <nav>
+            <div class="menuMobile">
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+            </div>
+
+            <ul>
+                <li>Sobre nós</li>
+                <li>Contato</li>
+                <li>Chocolates</li>
+                <li>cupcakes</li>
+            </ul>
+        </nav>
+    </div> <!-- menu de navegação do website (Versão Desktop)-->
+
+    <header id="topo_carrossel"> <!-- Area inteira do carrossel, aplica Flex e center, recebe um background-image que cobre toda area-->
+
+        <div class="carrossel_area">
+            
+            <div class="slide" style="background-image:url('assets/images/200820-CIANO-Mockup-11.jpg')">
+                
+                <div class="topo_coluna_esquerda">
+                    
+                </div>
+                <div class="topo_coluna_centro">
+                    <div class="trocar_imagem">
+                        <span class="botao_trocar"></span>
+                        <span class="botao_trocar"></span>
+                        <span class="botao_trocar"></span>
+                    </div>
+                </div>
+                <div class="topo_coluna_direita">
+                    <div class="content">
+                        <div class="titulo"><pre>Doces para   </br>            todas as</br><p id="especial">Ocasioes</p></pre></div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </header>
+
+    <div id="espaco"></div>
+    
+
+    <main id="lista_produtos">
+        
+        <div class="lista_produtos_area">
+
+            <div class="container">
+
+                <div class="titulo_produtos">
+                    <div class="cupcakes">nossos cupcakes</div>
+                    <div class="linha"></div>
+                </div>
+
+                <div class="lista_cupcakes">
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-03.jpg" alt="Lançamento de cupcakes" />
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-04.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-07.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-08.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-09.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-10.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-05.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-06.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                    <div class="cupcake">
+                        <img src="assets/images/200820-CIANO-Mockup-08.jpg" alt="Lançamento de cupcakes"/>
+                        <div class="descricao">CUPCAKE</div>
+                        <div class="valor">R$ 00,00</div>
+                    </div>
+                              
+                                         
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div id="espaco"></div>    
+    
+    <section id="newsletter">
+        <div class="newsletter_int">
+            <div class="titulo_newsletter">
+                <div class="assinatura">assine a nossa newsletter</div>
+                <div class="cadastre">cadastre seu email e receba as nossas novidades</div>
+            </div>
+            <div class="campo_email">
+                <div class="container_novo">
+                    <input type="text" name="email" id="email" placeholder="DIGITE SEU E-MAIL AQUI" />
+                    <button type="submit">assinar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_area">
+
+        <div class="ciano_info">
+
+            <div class="logo_ciano">
+                <img src="assets/images/200820-CIANO-Mockup-14.png" />
+            </div>
+            
+            <div class="coluna2">
+                <div class="minha_conta">
+                    <ul>
+                        minha conta
+                        <li><a href="/">Fazer login</a></li>
+                        <li><a href="/">Carrinho</a></li>
+                    </ul>
+                
+                
+                    <ul>
+                        a Ciano
+                        <li><a href="/">Sobre nos</a></li>
+                    </ul>
+                </div>
+                                
+            </div>
+            
+            <div class="coluna3">
+
+                <ul>
+                    informações
+                    <li><a href="/">Navegação</a></li>
+                    <li><a href="/">Politicas de privacidade</a></li>
+                    <li><a href="/">Propriedade intelectual</a></li>
+                    <li><a href="/">Políticas de compra</a></li>
+                    <li><a href="/">Fale conosco</a></li>
+                </ul>
+
+            </div>
+            
+            <div class="coluna4">
+                <ul>
+                    atendimento
+                    <li><a href="/">Av. Osvaldo Aranha 1022/1015</a></li>
+                    <li><a href="/">Porto Alegre - RS</a></li>
+                    <li></br><a href="/">Segunda a sexta: 9h - 18h</a></li>                    
+                    <li></br><a href="/">(51) xxxx xxxx</a></li>
+                    <li><a href="/">(51) xxxx xxxx</a></li>
+                    <li><a href="/">contato@ciano.tech</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    </footer>
+
+    <div class="footer_copy">
+        
+        <div class="copyrights">
+            &copy; 2020 &nbsp;desenvolvido por &nbsp;<strong>ciano</strong>
+        </div>
+
+    </div>
+    
+</body>
+</html>
